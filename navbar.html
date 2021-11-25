@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="https://res.cloudinary.com/veseylab/raw/upload/v1597754760/magicmouse/magic-mouse-1.0.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <style>
+      body #magicMouseCursor {
+        border: 1px solid transparent;
+        background-color: rgba(186, 189, 20, 0.17) !important;
+        /* transition: none !important; */
+      }
+      body #magicPointer {
+        background-color: rgb(226, 210, 137) !important;
+        width: 10px !important;
+        height: 10px !important;
+      }
+
+      li:hover + nav ul {
+        background-color: red !important;
+      }
+      .salam:hover + nav ul {
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="navigation__list" id="nav_list">
+        <li class="navigation__list-items">
+          <a class="magic-hover" href="#" title="Work">
+            <div class="cut__wrapper-flex">
+              <div class="cut__wrapper" id="cut__wrapper">
+                <div class="cut cut1">Work</div>
+                <div class="cut cut2">Work</div>
+                <div class="cut cut3">Work</div>
+                <div class="cut cut4">Work</div>
+                <div style="opacity: 0; pointer-events: none;">Work</div>
+              </div>
+              <!-- after -->
+            </div>
+          </a>
+        </li>
+        <li class="navigation__list-items">
+          <a class="magic-hover" href="#" title="Culture"><div class="cut__wrapper-flex">
+            <div class="cut__wrapper" >
+              <div class="cut cut1">Culture</div>
+              <div class="cut cut2">Culture</div>
+              <div class="cut cut3">Culture</div>
+              <div class="cut cut4">Culture</div>
+              <div style="opacity: 0; pointer-events: none;">Culture</div>
+            </div>
+            <!-- after -->
+          </div></a>
+        </li>
+        <li class="navigation__list-items">
+          <a class="magic-hover" href="#" title="Careers"><div class="cut__wrapper-flex">
+            <div class="cut__wrapper" >
+              <div class="cut cut1">Careers</div>
+              <div class="cut cut2">Careers</div>
+              <div class="cut cut3">Careers</div>
+              <div class="cut cut4">Careers</div>
+              <div style="opacity: 0; pointer-events: none;">Careers</div>
+            </div>
+            <!-- after -->
+          </div></a>
+        </li>
+        <li class="navigation__list-items">
+          <a class="magic-hover" href="#" title="Contact"><div class="cut__wrapper-flex">
+            <div class="cut__wrapper" >
+              <div class="cut cut1">Contact</div>
+              <div class="cut cut2">Contact</div>
+              <div class="cut cut3">Contact</div>
+              <div class="cut cut4">Contact</div>
+              <div style="opacity: 0; pointer-events: none;">Contact</div>
+            </div>
+            <!-- after -->
+          </div></a>
+        </li>
+        <li class="navigation__list-items">
+          <a class="magic-hover" href="#" title="Archive"><div class="cut__wrapper-flex">
+            <div class="cut__wrapper" >
+              <div class="cut cut1">Archive</div>
+              <div class="cut cut2">Archive</div>
+              <div class="cut cut3">Archive</div>
+              <div class="cut cut4">Archive</div>
+              <div style="opacity: 0; pointer-events: none;">Archive</div>
+            </div>
+            <!-- after -->
+          </div></a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      type="text/javascript"
+      src="https://res.cloudinary.com/veseylab/raw/upload/v1597754761/magicmouse/magic_mouse-1.0.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>
